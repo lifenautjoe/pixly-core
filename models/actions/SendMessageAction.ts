@@ -2,8 +2,8 @@ import { IsString } from 'class-validator';
 
 export class SendMessageAction {
   @IsString()
-  public room: string;
+  public roomName: string;
 
   @IsString()
-  public message: string;
+  public messageText: string;
 }
