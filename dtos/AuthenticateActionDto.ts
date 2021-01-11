@@ -4,4 +4,8 @@ export class AuthenticateActionDto {
   @IsString()
   @Length(1, 32)
   public userName: string;
+
+  @IsString()
+  @Length(1, 32)
+  public userAvatar: string;
 }
