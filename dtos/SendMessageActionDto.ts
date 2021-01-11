@@ -1,9 +1,6 @@
 import { IsString } from 'class-validator';
 
-export class SendMessageAction {
-  @IsString()
-  public roomName: string;
-
+export class SendMessageActionDto {
   @IsString()
   public messageText: string;
 }
