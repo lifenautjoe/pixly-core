@@ -7,6 +7,6 @@ export class AuthenticateActionDto {
   public name: string;
 
   @IsString()
-  @IsIn([Object.values(PixlyProtocol.avatars)])
+  @IsIn(Object.values(PixlyProtocol.avatars))
   public avatar: string;
 }
