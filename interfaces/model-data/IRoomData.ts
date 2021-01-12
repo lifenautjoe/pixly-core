@@ -1,7 +1,7 @@
-import { IUserData } from './IUserData';
+import { IUserData } from "./IUserData";
 
 export interface IRoomData {
   name: string;
 
-  users?: { [userSocketId: string]: IUserData };
+  users: { [userSocketId: string]: IUserData };
 }
