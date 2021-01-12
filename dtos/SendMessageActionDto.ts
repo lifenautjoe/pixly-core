@@ -1,6 +1,6 @@
-import { IsString } from 'class-validator';
+import { IsString } from "class-validator";
 
 export class SendMessageActionDto {
   @IsString()
-  public messageText: string;
+  public text: string;
 }
