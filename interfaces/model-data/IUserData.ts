@@ -1,12 +1,12 @@
-import { IRoomData } from './IRoomData';
-import { IUserStatusData } from './IUserStatusData';
+import { IRoomData } from "./IRoomData";
+import { IUserStatusData } from "./IUserStatusData";
 
 export interface IUserData {
   name: string;
 
   avatar: string;
 
-  socketId?: string;
+  socketId: string;
 
   status?: IUserStatusData;
 
