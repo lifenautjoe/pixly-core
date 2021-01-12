@@ -15,9 +15,16 @@ const events = {
   ERROR: "error",
 };
 
+const avatars = {
+  BULBASAUR: "bulbasaur",
+  CHARMANDER: "charmander",
+  SQUIRTLE: "squirtle",
+};
+
 export const PixlyProtocol = {
   events,
   actions,
+  avatars,
 };
 
 export default PixlyProtocol;

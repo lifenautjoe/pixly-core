@@ -1,11 +1,12 @@
-import { IsString, Length } from 'class-validator';
+import { PixlyProtocol } from "./../protocol";
+import { IsIn, IsString, Length } from "class-validator";
 
 export class AuthenticateActionDto {
   @IsString()
   @Length(1, 32)
-  public userName: string;
+  public name: string;
 
   @IsString()
-  @Length(1, 32)
-  public userAvatar: string;
+  @IsIn([Object.values(PixlyProtocol.avatars)])
+  public avatar: string;
 }
