@@ -10,6 +10,7 @@ const events = {
   JOINED_ROOM: "joinedRoom",
   NEW_MESSAGE: "newMessage",
   USER_LEFT_ROOM: "userLeftRoom",
+  USER_JOINED_ROOM: "userJoinedRoom",
   USER_STATUS_UPDATE: "userStatusUpdate",
   ROOM_STATUS_UPDATE: "roomStatusUpdate",
   ERROR: "error",
